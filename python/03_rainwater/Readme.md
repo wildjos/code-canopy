@@ -10,7 +10,7 @@ You are given an integer array representing an elevation map.  The `width` of ea
    * No, the sides are not walls
    
 2. Will there be negative integers?
-  * No, assume the integers are positive
+   * No, assume the integers are positive
 
 
 ### Example 1:
@@ -18,7 +18,8 @@ You are given an integer array representing an elevation map.  The `width` of ea
 ```
 Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
 Output: 6
-Explanation: The above elevation map (black section) is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped.
+Explanation: The elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. 
+In this case, 6 units of rain water (blue section) are being trapped.
 ```
 
 ### Example 2:
@@ -30,7 +31,7 @@ Output: 9
 
 ## To Test:
 
-python3 -m unittest -v main.py
+`python3 -m unittest -v main.py`
 or
-python3 main.py
+`python3 main.py`
 
